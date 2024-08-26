@@ -1,4 +1,5 @@
 var timeline = gsap.timeline();
+
 timeline.from("nav h3", {
   y: -30,
   opacity: 0,
@@ -20,6 +21,13 @@ timeline.from("img", {
   opacity: 0,
   duration: 0.7,
   stagger: 0.5
+})
+
+timeline.from("footer p", {
+  y: 30,
+  opacity: 0,
+  duration: 1,
+  stagger: 0.1
 })
 
 const bgAudio = document.getElementById("bgAudio");
