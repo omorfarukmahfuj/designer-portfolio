@@ -1,5 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("CometVideoHomeLatestRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="8318152374896313"}),null);
-__d("CometVideoHomeLatestRootQuery$Parameters",["CometVideoHomeLatestRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometVideoHomeLatestRootQuery_facebookRelayOperation"),metadata:{},name:"CometVideoHomeLatestRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
-__d("CometVideoHomeLatestRoot.entrypoint",["CometVideoHomeLatestRootQuery$Parameters","JSResourceForInteraction","WebPixelRatio","buildCometVideoHomeRoute.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildCometVideoHomeRoute.entrypoint")(c("JSResourceForInteraction")("CometVideoHomeLatestRoot.react").__setRef("CometVideoHomeLatestRoot.entrypoint"),function(a){return{queries:{latestRootQueryReference:{parameters:b("CometVideoHomeLatestRootQuery$Parameters"),variables:{scale:d("WebPixelRatio").get()}}}}});g["default"]=a}),98);
