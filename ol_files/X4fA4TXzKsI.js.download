@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometFeedAutoRefreshFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("6718");b=d("FalcoLoggerInternal").create("comet_feed_auto_refresh",a);e=b;g["default"]=e}),98);
+__d("CometFeedRefreshPillFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f,g){"use strict";a=c("getFalcoLogPolicy_DO_NOT_USE")("6704");b=d("FalcoLoggerInternal").create("comet_feed_refresh_pill",a);e=b;g["default"]=e}),98);
